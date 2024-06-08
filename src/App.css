@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.welcome {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+/* Import the Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Define the style for bold Inter font with size 64px */
+.welcome h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  /* Additional styles can be added here if needed */
+}
+
+/* Import the Josefin Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap');
+
+/* CSS code for 'Josefin Sans' font text with regular weight and size 64px */
+.welcome h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400; /* Regular weight */
+  font-size: 64px;
+  line-height: 97%;
+  text-align: left;
+  padding-left: 37%;
+  color: #3D2674;
+}
+
+
